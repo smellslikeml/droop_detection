@@ -1,0 +1,11 @@
+
+#ifndef TENSORFLOW_LITE_MICRO_DROOP_DETECTION_ARDUINO_HM01B0_PLATFORM_H_
+#define TENSORFLOW_LITE_MICRO_DROOP_DETECTION_ARDUINO_HM01B0_PLATFORM_H_
+
+#if defined(ARDUINO) && defined(ARDUINO_SFE_EDGE)
+#include "hm01b0_platform_edge.h"
+#define HM01B0_PIN_TRIG 0  // unused
+#define HM01B0_PIN_INT 0   // unused
+#endif                     // defined(ARDUINO) && defined(ARDUINO_SFE_EDGE)
+
+#endif  // TENSORFLOW_LITE_MICRO_DROOP_DETECTION_ARDUINO_HM01B0_PLATFORM_H_
