@@ -2,7 +2,7 @@
 
 *Read the [blog](https://smellslike.ml/posts/tf-microcontroller-challenge-droopthereitis/)*
 
-![droop-demo](https://github.com/smellslikeml/droop_detection/blob/master/assets/droop_example.gif)
+![droop-demo](https://github.com/smellslikeml/droop_detection/blob/main/assets/droop_example.gif)
 
 Project "Droop, there it is" aims to reduce water consumption by triggering irrigation events only when drought stress is identified. A battery-powered Arduino Nano 33 BLE sense running an image classifier to identify plant "droopiness" can be deployed in fields without power to signal nearby irrigation equipment.
 
